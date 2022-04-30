@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="Procfile" type="AUTO_DETECTED" />
+      <mapping pattern="js" type="AUTO_DETECTED" />
+      <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
+      <removed_mapping ext="md" approved="true" type="Markdown" />
+    </extensionMap>
+  </component>
+</application>
