@@ -1,0 +1,11 @@
+<templateSet group="JavaScript">
+  <template name="log" value="// eslint-disable-next-line no-console&#10;console.log($END$);" description="console.log()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="error" value="console.error($END$);" description="console.error()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="warn" value="console.warn($END$);" description="console.warn()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>
