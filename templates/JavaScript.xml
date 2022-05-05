@@ -1,0 +1,20 @@
+<templateSet group="JavaScript">
+  <template name="log" value="// eslint-disable-next-line no-console&#10;console.log($END$);" description="console.log()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="error" value="console.error($END$);" description="console.error()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="warn" value="console.warn($END$);" description="console.warn()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="clg" value="console.log($END$) " description="console.log() without comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
